@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// axios.defaults.baseURL = "https://jo-drf-migration-c1d05b0e9042.herokuapp.com/";
+axios.defaults.baseURL = "api/";
 axios.defaults.headers.post["Content-Type"] = "multipart/form-data";
 axios.defaults.withCredentials = true;
 
